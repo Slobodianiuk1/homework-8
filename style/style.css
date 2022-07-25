@@ -6,7 +6,7 @@
 
 .bg-picture {
 	position: relative;
-	background-image: url('img/bg-picture.svg');
+	background-image: url('../img/bg-picture.svg');
 	background-repeat: no-repeat;
 	background-position: right 147px;
 	background-attachment: fixed;
