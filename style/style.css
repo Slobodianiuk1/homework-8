@@ -38,9 +38,7 @@ p:not(:last-of-type) {
 	margin-bottom: 40px;
 }
 
-p:last-of-type {
-	margin-bottom: 60px;
-}
+
 
 
 
@@ -163,9 +161,14 @@ main {
 
 }
 
-h2+p {
+section:not(:last-child) {
 	margin-bottom: 87px;
 }
+
+
+/* h2+p {
+	margin-bottom: 87px;
+} */
 
 main section h2::before {
 	content: '';
